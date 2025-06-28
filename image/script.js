@@ -1,20 +1,14 @@
-const navLinks = document.querySelectorAll("nav ul li a");
-const sections = document.querySelectorAll("section");
+const form = document.querySelector('.contact-form');
 
-window.addEventListener("scroll", () => {
-  sections.forEach(section => {
-    const top = window.scrollY;
-    const offset = section.offsetTop - 100;
-    const height = section.offsetHeight;
-    const id = section.getAttribute("id");
+form.addEventListener('submit', function (e) {
+  const name = form.querySelector('input[name="username"]').value.trim();
+  const email = form.querySelector('input[name="email"]').value.trim();
+  const message = form.querySelector('textarea[name="message"]').value.trim();
 
-    if (top >= offset && top < offset + height) {
-      navLinks.forEach(link => {
-        link.classList.remove("active");
-        if (link.getAttribute("href") === `#${id}`) {
-          link.classList.add("active");
-        }
-      });
-    }    
-  });
+  if (!name || !email || !message) {
+    alert("❌ Please fill in all fields.");
+    e.preventDefault(); // Stops the form from submitting
+  } else {
+    alert("✅ Message sent successfully! (Just a demo alert)");
+  }
 });
