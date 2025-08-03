@@ -1,4 +1,4 @@
-# 🌐 Vishnuvarthan | Full Stack Developer Portfolio
+| Full Stack Developer Portfolio
 
 Welcome to my personal portfolio! This website showcases my passion for crafting scalable web applications and delivering interactive user experiences. Dive in to learn more about my skills, services, and how we can build something amazing together.
 
