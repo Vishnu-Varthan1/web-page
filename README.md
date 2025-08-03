@@ -33,7 +33,7 @@ Explore the site: [Portfolio Homepage](http://127.0.0.1:5500/)
 ## 💡 Sections Breakdown
 
 ### 🚀 Hero
-- Name and Title: *"Hello, I'm Vishnuvarthan — Full Stack Developer"*
+- Name and Title: *"Hello, I'm Vis — Full Stack Developer"*
 - Call to Action: "Hire Me" and "Learn More" buttons
 - Vibrant color gradients and circular code-frame design
 
